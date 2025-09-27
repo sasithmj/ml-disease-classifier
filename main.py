@@ -8,7 +8,7 @@ import io
 app = FastAPI()
 
 # Load your trained model
-model = joblib.load("model.pkl")
+model = joblib.load("best_paddy_dt_model.pkl")
 
 # Preprocessing (adjust this to how your model expects input)
 def preprocess_image(image: Image.Image):
