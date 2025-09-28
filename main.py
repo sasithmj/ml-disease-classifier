@@ -10,7 +10,7 @@ app = FastAPI()
 
 # Load your trained model safely
 try:
-    model = joblib.load("best_paddy_dt_model.pkl")
+    model = joblib.load("best_paddy_rf_model.pkl")
 except Exception as e:
     print("Error loading model:", e)
     model = None
