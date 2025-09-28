@@ -1,7 +1,7 @@
+scikit-learn==1.6.1
+python-multipart
 fastapi
 uvicorn
 pillow
 numpy
 joblib
-scikit-learn==1.6.1
-python-multipart
